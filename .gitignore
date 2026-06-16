@@ -1,0 +1,30 @@
+# ====================================================================
+# SASIS PROTEKSI REPOSITORI AI CODE ANALIZER
+# ====================================================================
+
+# 1. Mengabaikan folder model AI lokal karena ukurannya raksasa (Beban Berat)
+cyber_detector_model/
+cyber_detector_model
+
+# 2. Mengabaikan folder Virtual Environment (Kamar Steril Python Lokal)
+venv/
+.venv/
+env/
+ENV/
+
+# 3. Mengabaikan file sampah otomatis bytecode bawaan Python compiler
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 4. Mengabaikan folder output kompilasi PyInstaller (Pas lu bikin .exe nanti)
+build/
+dist/
+*.spec
+
+# 5. Mengabaikan file sampah sistem operasi (Windows & Mac)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
